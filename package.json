@@ -1,0 +1,37 @@
+{
+  "name": "string-2-react",
+  "version": "0.1.0",
+  "description": "Turn your valid strings into a react component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahnafyy/string-2-react.git"
+  },
+  "keywords": [
+    "html",
+    "react",
+    "rust"
+  ],
+  "author": "Ahnaf Prio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahnafyy/string-2-react/issues"
+  },
+  "homepage": "https://github.com/ahnafyy/string-2-react#readme",
+  "dependencies": {
+    "@testing-library/react": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0"
+  }
+}
