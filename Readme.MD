@@ -45,19 +45,23 @@ This is a package that converts your valid HTML strings into React components, m
 
 ## Advantages
 
-👍 `string-2-react` is a lightweight package that can be easily integrated into your React project.
+- `string-2-react` is a lightweight package that can be easily integrated into your React project.
 
-👍 It efficiently converts your HTML strings into React components.
+- It efficiently converts your HTML strings into React components.
 
-👍 The package is easy to use, and you can get started with just a few lines of code.
+- The package is easy to use, and you can get started with just a few lines of code.
 
-👍 It handles different types of HTML elements, including self-closing tags, start tags, and end tags, as well as `<script>` tags.
+- It handles different types of HTML elements, including self-closing tags, start tags, and end tags, as well as `<script>` tags.
 
 ## Limitations
 
-👎 `string-2-react` is not meant to handle complex HTML strings that include other types of non-HTML content besides `<script>` tags.
+- `string-2-react` is not meant to handle complex HTML strings that include other types of non-HTML content besides `<script>` tags.
 
-👎 The regular expressions used to parse the HTML strings may not be sufficient for every use case, and you may need to modify them to fit your specific needs.
+- Does not sanitize the html 
+
+- Does not do validation
+
+- Does not provide support against XSS
 
 ## Conclusion
 
