@@ -1,24 +1,23 @@
 
-# 🚀 string-2-react 🚀
+# string-2-react 🧵  ⚛️
 
-Turn your valid HTML strings into React components with ease! `string-2-react`
+Turn your valid HTML strings into React components with ease! 
 
 ## Installation
 
 You can install the package using `npm` or `yarn`:
 
-bashCopy code
+```bash
+npm install string-2-react
+```
 
-`npm install string-2-react` 
-
-bashCopy code
-
-`yarn add string-2-react` 
+```bash
+yarn add string-2-react 
+```
 
 ## Usage
 
-javascriptCopy code
-
+```javascript
 `const { stringToReactComponent } = require('string-2-react');
 
 const htmlString = '<div><h1>Hello World</h1><p>Welcome to my awesome website!</p></div>';
@@ -26,6 +25,7 @@ const reactComponent = stringToReactComponent(htmlString);
 
 console.log(reactComponent);
 // Output: <div><h1>Hello World</h1><p>Welcome to my awesome website!</p></div>` 
+```
 
 ## API
 
