@@ -1,6 +1,6 @@
 {
   "name": "string-2-react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Turn your valid strings into a react component",
   "main": "src/index.js",
   "scripts": {

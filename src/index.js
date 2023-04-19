@@ -27,6 +27,7 @@ function convertNodeToReact(node) {
       // Return the element with the tag name
       return React.createElement(tagName, props, ...children);
     }
+    return React.createElement(tagName, props, ...children);
   } else if (node.nodeType === Node.TEXT_NODE) {
     // Return the text content of the node as a string
     return node.textContent;
